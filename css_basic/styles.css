@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column; /* Stack header, main, and footer vertically */
+}
+
+main {
+    display: flex;
+    flex-direction: row; /* Arrange article and aside horizontally */
+    flex: auto; /* Ensure main takes up available space */
+}
+
+article {
+    flex: 2; /* Takes up ⅔ of the width */
+    overflow-y: auto; /* Allows scrolling */
+}
+aside {
+    flex: 1; /* Takes up ⅓ of the width */
+    overflow-y: auto; /* Allows scrolling */
+}
+
