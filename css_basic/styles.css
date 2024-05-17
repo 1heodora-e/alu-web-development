@@ -18,3 +18,56 @@ aside {
     overflow-y: auto; /* Allows scrolling */
 }
 
+/* Logo styling */
+.logo {
+    font-size: 2em;
+    margin-right: 10px;
+}
+
+/* Additional custom styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    margin-right: 20px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+article {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+aside {
+    background-color: #e2e2e2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
